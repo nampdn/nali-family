@@ -1,0 +1,28 @@
+diff --git a/node_modules/@lekoarts/gatsby-theme-jodie/src/components/footer.tsx b/node_modules/@lekoarts/gatsby-theme-jodie/src/components/footer.tsx
+index 33dace1..789a67f 100755
+--- a/node_modules/@lekoarts/gatsby-theme-jodie/src/components/footer.tsx
++++ b/node_modules/@lekoarts/gatsby-theme-jodie/src/components/footer.tsx
+@@ -37,23 +37,6 @@ const Footer = ({ bg }: { bg: string }) => {
+       <div>
+         &copy; {new Date().getFullYear()} by {siteTitle}.
+       </div>
+-      <div>
+-        <Link
+-          aria-label="Link to the theme's GitHub repository"
+-          href="https://github.com/LekoArts/gatsby-themes/tree/main/themes/gatsby-theme-jodie"
+-        >
+-          Theme
+-        </Link>
+-        {` `}
+-        by
+-        {` `}
+-        <Link
+-          aria-label="Link to the theme author's website"
+-          href="https://www.lekoarts.de?utm_source=jodie&utm_medium=Theme"
+-        >
+-          LekoArts
+-        </Link>
+-      </div>
+     </footer>
+   )
+ }

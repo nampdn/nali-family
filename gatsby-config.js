@@ -22,9 +22,9 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         navigation: [
-          { name: `Projects`, slug: `/projects` },
-          { name: `Art`, slug: `/art` },
           { name: `Ảnh Cưới`, slug: `/anh-cuoi` },
+          { name: `Đến Nhà hàng`, slug: `/projects` },
+          { name: `Art`, slug: `/art` }
         ],
       },
     },
