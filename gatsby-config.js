@@ -14,7 +14,7 @@ module.exports = {
     siteDescription: `Nam & Linh Family`,
     siteLanguage: `vi`,
     siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    author: `@nampdn`,
   },
   plugins: [
     {
@@ -24,7 +24,7 @@ module.exports = {
         navigation: [
           { name: `Projects`, slug: `/projects` },
           { name: `Art`, slug: `/art` },
-          { name: `About`, slug: `/about` },
+          { name: `Ảnh Cưới`, slug: `/anh-cuoi` },
         ],
       },
     },
