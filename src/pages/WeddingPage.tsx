@@ -32,12 +32,10 @@ const WeddingPage: React.FC = () => {
       <IonContent fullscreen>
         <WeddingGallery></WeddingGallery>
         <div className="float-button">
-          <IonButton color="light">
-            {/* <IonIcon slot="start" icon={star} /> */}
+          <IonButton color="light" href="https://goo.gl/maps/1MJZP3m79SUVjkCs7">
             Đến Nhà Thờ
           </IonButton>
-          <IonButton color="light">
-            {/* <IonIcon slot="start" icon={star} /> */}
+          <IonButton color="light" href="https://goo.gl/maps/Bx75GWbeFdEXWRjT9">
             Đến Nhà Hàng
           </IonButton>
         </div>

@@ -25,32 +25,26 @@ const slideOpts = {
 export const WeddingGallery: React.FC = () => (
   <IonContent>
     <IonSlides options={slideOpts}>
-      <IonSlide className="color-gray">
+      <IonSlide>
         <IonGrid>
           <IonRow>
             <IonCol>
-              <IonImg src={`assets/hinhcuoi/DSC09724.png`}></IonImg>
+              <IonImg src={`assets/hinhcuoi/DSC09724.webp`}></IonImg>
             </IonCol>
             <IonCol>
-              <IonImg src={`assets/hinhcuoi/DSC09714.png`}></IonImg>
+              <IonImg src={`assets/hinhcuoi/DSC09714.webp`}></IonImg>
             </IonCol>
           </IonRow>
         </IonGrid>
       </IonSlide>
-      <IonSlide className="color-green">
+      <IonSlide>
         <IonGrid>
           <IonRow>
-            <IonCol>
-              <IonImg src={`assets/hinhcuoi/1.webp`}></IonImg>
+            <IonCol size="8">
+              <IonImg src={`assets/hinhcuoi/DSC09695.webp`}></IonImg>
             </IonCol>
             <IonCol>
-              <IonImg src={`assets/hinhcuoi/2.webp`}></IonImg>
-            </IonCol>
-          </IonRow>
-
-          <IonRow>
-            <IonCol>
-              <IonImg src={`assets/hinhcuoi/3.webp`}></IonImg>
+              <IonImg src={`assets/hinhcuoi/DSC09714.webp`}></IonImg>
             </IonCol>
           </IonRow>
         </IonGrid>
