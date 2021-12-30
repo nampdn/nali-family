@@ -17,9 +17,9 @@ const slideOpts = {
   initialSlide: 0,
   speed: 400,
   loop: true,
-  autoplay: {
-    delay: 7000,
-  },
+  //   autoplay: {
+  //     delay: 7000,
+  //   },
 };
 
 export const WeddingGallery: React.FC = () => (
@@ -29,10 +29,12 @@ export const WeddingGallery: React.FC = () => (
         <IonGrid>
           <IonRow>
             <IonCol>
-              <IonImg src={`assets/hinhcuoi/DSC09724.webp`}></IonImg>
+              <IonImg src={`assets/hinhcuoi/slide1/DSC09706.webp`}></IonImg>
             </IonCol>
+          </IonRow>
+          <IonRow>
             <IonCol>
-              <IonImg src={`assets/hinhcuoi/DSC09714.webp`}></IonImg>
+              <IonText>02/09/2016 - lần đầu gặp nhau</IonText>
             </IonCol>
           </IonRow>
         </IonGrid>
@@ -45,6 +47,11 @@ export const WeddingGallery: React.FC = () => (
             </IonCol>
             <IonCol>
               <IonImg src={`assets/hinhcuoi/DSC09714.webp`}></IonImg>
+            </IonCol>
+          </IonRow>
+          <IonRow>
+            <IonCol>
+              <IonText>02/09/2017 - chính thức tìm hiểu</IonText>
             </IonCol>
           </IonRow>
         </IonGrid>
