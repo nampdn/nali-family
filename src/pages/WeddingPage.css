@@ -1,0 +1,14 @@
+ion-toolbar {
+}
+
+ion-slides {
+  background: transparent;
+}
+
+.float-button {
+  position: fixed;
+  bottom: 8px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
