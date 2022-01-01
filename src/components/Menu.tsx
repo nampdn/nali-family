@@ -47,15 +47,15 @@ const appPages: AppPage[] = [
     iosIcon: imageOutline,
     mdIcon: imageSharp,
   },
-  {
-    title: "Outbox",
-    url: "/page/Outbox",
-    iosIcon: paperPlaneOutline,
-    mdIcon: paperPlaneSharp,
-  },
+  // {
+  //   title: "Outbox",
+  //   url: "/page/Outbox",
+  //   iosIcon: paperPlaneOutline,
+  //   mdIcon: paperPlaneSharp,
+  // },
 ];
 
-const labels = ["Family", "Friends", "Notes", "Work", "Travel", "Reminders"];
+// const labels = ["Family", "Friends", "Notes", "Work", "Travel", "Reminders"];
 
 const Menu: React.FC = () => {
   const location = useLocation();

@@ -17,9 +17,9 @@ const slideOpts = {
   initialSlide: 0,
   speed: 400,
   loop: true,
-  //   autoplay: {
-  //     delay: 7000,
-  //   },
+  autoplay: {
+    delay: 4000,
+  },
 };
 
 export const WeddingGallery: React.FC = () => (
@@ -42,16 +42,30 @@ export const WeddingGallery: React.FC = () => (
       <IonSlide>
         <IonGrid>
           <IonRow>
-            <IonCol size="8">
-              <IonImg src={`assets/hinhcuoi/DSC09695.webp`}></IonImg>
+            <IonCol>
+              <IonImg src={`assets/hinhcuoi/slide2/DSC09714.webp`}></IonImg>
             </IonCol>
             <IonCol>
-              <IonImg src={`assets/hinhcuoi/DSC09714.webp`}></IonImg>
+              <IonImg src={`assets/hinhcuoi/slide2/DSC09724.webp`}></IonImg>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol>
               <IonText>02/09/2017 - chính thức tìm hiểu</IonText>
+            </IonCol>
+          </IonRow>
+        </IonGrid>
+      </IonSlide>
+      <IonSlide>
+        <IonGrid>
+          <IonRow>
+            <IonCol>
+              <IonImg src={`assets/hinhcuoi/slide3/DSC09727.webp`}></IonImg>
+            </IonCol>
+          </IonRow>
+          <IonRow>
+            <IonCol>
+              <IonText>lần đầu gặp nhau trong TKMT 2016</IonText>
             </IonCol>
           </IonRow>
         </IonGrid>
