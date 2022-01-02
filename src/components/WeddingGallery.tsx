@@ -106,7 +106,7 @@ export const WeddingGallery: React.FC = () => (
           </IonRow>
           <IonRow>
             <IonCol>
-              <IonText>chú rể Nhật Nam tin Chúa vào năm 2016 (20 tuổi)</IonText>
+              <IonText>chú rể Nhật Nam tin Chúa vào năm 2016</IonText>
             </IonCol>
           </IonRow>
         </IonGrid>
@@ -122,7 +122,7 @@ export const WeddingGallery: React.FC = () => (
           </IonRow>
           <IonRow>
             <IonCol>
-              <IonText>cô dâu Lan Linh tin Chúa năm 2012 (15 tuổi)</IonText>
+              <IonText>cô dâu Lan Linh tin Chúa năm 2012</IonText>
             </IonCol>
           </IonRow>
         </IonGrid>
@@ -159,7 +159,7 @@ export const WeddingGallery: React.FC = () => (
           </IonRow>
           <IonRow>
             <IonCol>
-              {/* <IonText>lần đầu gặp nhau trong TKMT 2016</IonText> */}
+              <IonText>cô dâu không biết ăn rau xanh</IonText>
             </IonCol>
           </IonRow>
         </IonGrid>
@@ -178,6 +178,11 @@ export const WeddingGallery: React.FC = () => (
               ></IonImg>
             </IonCol>
           </IonRow>
+          <IonRow>
+            <IonCol>
+              <IonText>chú rể không biết ăn chao</IonText>
+            </IonCol>
+          </IonRow>
         </IonGrid>
       </IonSlide>
       <IonSlide>
@@ -187,11 +192,6 @@ export const WeddingGallery: React.FC = () => (
               <IonImg
                 src={`https://ik.imagekit.io/namlinhfamily/webp/DSC01389_Dw2v6WHR2.webp?updatedAt=1641028442243`}
               ></IonImg>
-            </IonCol>
-          </IonRow>
-          <IonRow>
-            <IonCol>
-              {/* <IonText>lần đầu gặp nhau trong TKMT 2016</IonText> */}
             </IonCol>
           </IonRow>
         </IonGrid>
