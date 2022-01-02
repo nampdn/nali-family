@@ -55,7 +55,7 @@ export const WeddingGallery: React.FC = () => (
           </IonRow>
           <IonRow>
             <IonCol>
-              <IonText>02/09/2017 - chính thức tìm hiểu</IonText>
+              <IonText>02/09/2017 - bắt đầu tìm hiểu</IonText>
             </IonCol>
           </IonRow>
         </IonGrid>
@@ -69,7 +69,7 @@ export const WeddingGallery: React.FC = () => (
           </IonRow>
           <IonRow>
             <IonCol>
-              <IonText>lần đầu gặp nhau trong TKMT 2016</IonText>
+              <IonText>tìm hiểu nhau trong 4 năm 4 tháng và 14 ngày</IonText>
             </IonCol>
           </IonRow>
         </IonGrid>
@@ -85,7 +85,7 @@ export const WeddingGallery: React.FC = () => (
           </IonRow>
           <IonRow>
             <IonCol>
-              {/* <IonText>lần đầu gặp nhau trong TKMT 2016</IonText> */}
+              <IonText>kỉ niệm đầu tiên tại TKMT Đà Lạt 2016</IonText>
             </IonCol>
           </IonRow>
         </IonGrid>
@@ -104,6 +104,11 @@ export const WeddingGallery: React.FC = () => (
               ></IonImg>
             </IonCol>
           </IonRow>
+          <IonRow>
+            <IonCol>
+              <IonText>chú rể Nhật Nam tin Chúa vào năm 2016 (20 tuổi)</IonText>
+            </IonCol>
+          </IonRow>
         </IonGrid>
       </IonSlide>
       <IonSlide>
@@ -117,7 +122,7 @@ export const WeddingGallery: React.FC = () => (
           </IonRow>
           <IonRow>
             <IonCol>
-              {/* <IonText>lần đầu gặp nhau trong TKMT 2016</IonText> */}
+              <IonText>cô dâu Lan Linh tin Chúa năm 2012 (15 tuổi)</IonText>
             </IonCol>
           </IonRow>
         </IonGrid>
@@ -134,6 +139,11 @@ export const WeddingGallery: React.FC = () => (
               <IonImg
                 src={`https://ik.imagekit.io/namlinhfamily/webp/DSC00223_vpY4J1foXpqn.webp?updatedAt=1641028439225`}
               ></IonImg>
+            </IonCol>
+          </IonRow>
+          <IonRow>
+            <IonCol>
+              <IonText></IonText>
             </IonCol>
           </IonRow>
         </IonGrid>
