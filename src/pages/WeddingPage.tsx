@@ -35,6 +35,9 @@ const WeddingPage: React.FC = () => {
           <IonButton color="light" href="https://goo.gl/maps/1MJZP3m79SUVjkCs7">
             Đến Nhà Thờ
           </IonButton>
+          <IonButton color="light" href="https://forms.gle/Vn8Cht6GFNR66nV67">
+            Lời Chúc
+          </IonButton>
           <IonButton color="light" href="https://goo.gl/maps/Bx75GWbeFdEXWRjT9">
             Đến Nhà Hàng
           </IonButton>
