@@ -23,6 +23,7 @@ import {
 } from "@ionic/react";
 import { Redirect, Route } from "react-router-dom";
 
+import CouplePage from "./pages/CouplePage";
 import { IonReactRouter } from "@ionic/react-router";
 import Menu from "./components/Menu";
 import Page from "./pages/Page";
@@ -39,6 +40,9 @@ const App: React.FC = () => {
           <IonRouterOutlet id="main">
             <Route path="/" exact={true}>
               <Redirect to="/prewedding" />
+            </Route>
+            <Route path="/couple" exact={true}>
+              <CouplePage />
             </Route>
             <Route path="/prewedding" exact={true}>
               <WeddingPage />

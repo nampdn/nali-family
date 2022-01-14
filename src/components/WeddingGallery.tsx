@@ -95,12 +95,7 @@ export const WeddingGallery: React.FC = () => (
           <IonRow>
             <IonCol>
               <IonImg
-                src={`https://ik.imagekit.io/namlinhfamily/webp/DSC00381_BZtUXmym_.webp?updatedAt=1641028459453`}
-              ></IonImg>
-            </IonCol>
-            <IonCol>
-              <IonImg
-                src={`https://ik.imagekit.io/namlinhfamily/webp/DSC00425_f2e8DQAvI.webp?updatedAt=1641028439895`}
+                src={`https://ik.imagekit.io/namlinhfamily/webp/DSC00899_u8dyjVTbI.webp?updatedAt=1641028465128`}
               ></IonImg>
             </IonCol>
           </IonRow>
@@ -217,7 +212,12 @@ export const WeddingGallery: React.FC = () => (
           <IonRow>
             <IonCol>
               <IonImg
-                src={`https://ik.imagekit.io/namlinhfamily/webp/DSC00899_u8dyjVTbI.webp?updatedAt=1641028465128`}
+                src={`https://ik.imagekit.io/namlinhfamily/webp/DSC00381_BZtUXmym_.webp?updatedAt=1641028459453`}
+              ></IonImg>
+            </IonCol>
+            <IonCol>
+              <IonImg
+                src={`https://ik.imagekit.io/namlinhfamily/webp/DSC00425_f2e8DQAvI.webp?updatedAt=1641028439895`}
               ></IonImg>
             </IonCol>
           </IonRow>
