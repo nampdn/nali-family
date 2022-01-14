@@ -42,14 +42,20 @@ interface AppPage {
 
 const appPages: AppPage[] = [
   {
+    title: "Hình Thời Quen Nhau",
+    url: "/couple",
+    iosIcon: imageOutline,
+    mdIcon: imageSharp,
+  },
+  {
     title: "Hình Cưới",
     url: "/prewedding",
     iosIcon: imageOutline,
     mdIcon: imageSharp,
   },
   {
-    title: "Hình Thời Quen Nhau",
-    url: "/couple",
+    title: "Hình Vu Quy",
+    url: "/vuquy",
     iosIcon: imageOutline,
     mdIcon: imageSharp,
   },

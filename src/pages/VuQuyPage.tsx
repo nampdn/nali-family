@@ -12,7 +12,7 @@ import {
   IonToolbar,
 } from "@ionic/react";
 
-import { CoupleGallery } from "../components/CoupleGallery";
+import { VuQuyGallery } from "../components/VuQuyGallery";
 import { useParams } from "react-router";
 
 const CouplePage: React.FC = () => {
@@ -35,7 +35,7 @@ const CouplePage: React.FC = () => {
       </IonHeader>
 
       <IonContent fullscreen>
-        <CoupleGallery></CoupleGallery>
+        <VuQuyGallery></VuQuyGallery>
         <div className="float-button">
           <IonButton color="light" href="https://goo.gl/maps/1MJZP3m79SUVjkCs7">
             Nhà Thờ

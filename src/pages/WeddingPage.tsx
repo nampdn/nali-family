@@ -38,13 +38,13 @@ const WeddingPage: React.FC = () => {
         <WeddingGallery></WeddingGallery>
         <div className="float-button">
           <IonButton color="light" href="https://goo.gl/maps/1MJZP3m79SUVjkCs7">
-            Đến Nhà Thờ
-          </IonButton>
-          <IonButton color="light" href="https://forms.gle/Vn8Cht6GFNR66nV67">
-            Lời Chúc
+            Nhà Thờ
           </IonButton>
           <IonButton color="light" href="https://goo.gl/maps/Bx75GWbeFdEXWRjT9">
-            Đến Nhà Hàng
+            Nhà Hàng
+          </IonButton>
+          <IonButton color="light" href="https://forms.gle/c3SNDnKEf9VXfs7LA">
+            Lời Chúc
           </IonButton>
         </div>
       </IonContent>

@@ -1,6 +1,7 @@
 import "./WeddingGallery.css";
 
 import {
+  IonButton,
   IonCol,
   IonContent,
   IonGrid,
@@ -172,6 +173,9 @@ export const CoupleGallery: React.FC = () => (
             </IonCol>
           </IonRow>
         </IonGrid>
+      </IonSlide>
+      <IonSlide>
+        <IonButton routerLink="/vuquy">Xem hình Vu Quy</IonButton>
       </IonSlide>
     </IonSlides>
   </IonContent>

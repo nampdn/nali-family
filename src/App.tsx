@@ -27,6 +27,7 @@ import CouplePage from "./pages/CouplePage";
 import { IonReactRouter } from "@ionic/react-router";
 import Menu from "./components/Menu";
 import Page from "./pages/Page";
+import VuQuyPage from "./pages/VuQuyPage";
 import WeddingPage from "./pages/WeddingPage";
 
 setupIonicReact();
@@ -40,6 +41,9 @@ const App: React.FC = () => {
           <IonRouterOutlet id="main">
             <Route path="/" exact={true}>
               <Redirect to="/prewedding" />
+            </Route>
+            <Route path="/vuquy" exact={true}>
+              <VuQuyPage />
             </Route>
             <Route path="/couple" exact={true}>
               <CouplePage />
