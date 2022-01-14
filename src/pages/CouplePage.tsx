@@ -25,6 +25,11 @@ const CouplePage: React.FC = () => {
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
+          <IonButtons slot="end">
+            <IonButton target="new" href="https://vgm.tv">
+              VGM
+            </IonButton>
+          </IonButtons>
           <IonTitle>Nhật Nam & Lan Linh</IonTitle>
         </IonToolbar>
       </IonHeader>

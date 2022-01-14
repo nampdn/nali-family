@@ -30,6 +30,61 @@ export const CoupleGallery: React.FC = () => (
           <IonRow>
             <IonCol>
               <IonImg
+                src={`https://ik.imagekit.io/namlinhfamily/couple/v2/webp/IMG_6723_dYOEneXGG.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1642184430582`}
+              ></IonImg>
+            </IonCol>
+          </IonRow>
+        </IonGrid>
+      </IonSlide>
+      <IonSlide>
+        <IonGrid>
+          <IonRow>
+            <IonCol>
+              <IonImg
+                src={`https://ik.imagekit.io/namlinhfamily/couple/v2/webp/IMG_6407_PaiF4jemF.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1642184434204`}
+              ></IonImg>
+            </IonCol>
+          </IonRow>
+        </IonGrid>
+      </IonSlide>
+      <IonSlide>
+        <IonGrid>
+          <IonRow>
+            <IonCol>
+              <IonImg
+                src={`https://ik.imagekit.io/namlinhfamily/couple/v2/webp/IMG_1206_0csvyEP9w.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1642184434254`}
+              ></IonImg>
+            </IonCol>
+          </IonRow>
+        </IonGrid>
+      </IonSlide>
+      <IonSlide>
+        <IonGrid>
+          <IonRow>
+            <IonCol>
+              <IonImg
+                src={`https://ik.imagekit.io/namlinhfamily/couple/v2/webp/IMG_2884_FCITu4oMc6Ep.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1642184432939`}
+              ></IonImg>
+            </IonCol>
+          </IonRow>
+        </IonGrid>
+      </IonSlide>
+      <IonSlide>
+        <IonGrid>
+          <IonRow>
+            <IonCol>
+              <IonImg
+                src={`https://ik.imagekit.io/namlinhfamily/couple/v2/webp/IMG_7935_My_wB1vYscr.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1642184432703`}
+              ></IonImg>
+            </IonCol>
+          </IonRow>
+        </IonGrid>
+      </IonSlide>
+      <IonSlide>
+        <IonGrid>
+          <IonRow>
+            <IonCol>
+              <IonImg
                 src={`https://ik.imagekit.io/namlinhfamily/couple/IMG_1600_NwIbL7i_8RG.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1642182694598`}
               ></IonImg>
             </IonCol>
